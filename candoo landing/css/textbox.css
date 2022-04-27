@@ -7,14 +7,43 @@
 .text__box--address {
   display: flex;
   justify-content: flex-start;
-  margin-right: 20rem;
+  margin-right: 33rem;
 }
 
 .text__box--main {
   display: flex;
   justify-content: center;
-  /* margin-right: 20rem; */
   align-items: center;
-  margin-bottom: 10rem;
-  /* width: 50%; */
+  margin-bottom: 3rem;
+}
+
+.box {
+  width: 50%;
+  margin: 3rem;
+  background-color: #d8e6e9;
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+}
+
+.box p {
+  color: var(--dark-color);
+}
+
+.address__title span {
+  color: rgb(95, 95, 95);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.address__icon--home i {
+  font-size: 1.6rem;
+}
+
+.address__icon--aroow i {
+  color: rgb(95, 95, 95);
+}
+
+.address__title a {
+  color: #0000ff;
+  margin-right: 0.5rem;
 }

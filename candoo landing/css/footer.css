@@ -20,3 +20,9 @@
 .footer__menu--item a {
   color: white;
 }
+
+.address__title span {
+  color: rgb(95, 95, 95);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}

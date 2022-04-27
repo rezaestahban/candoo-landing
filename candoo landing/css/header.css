@@ -4,7 +4,7 @@
   align-items: center;
   margin-top: 5rem;
   margin-right: 20rem;
-  position: relative;
+  /* position: relative; */
 
   /* margin-right: 15rem; */
 }
@@ -22,9 +22,55 @@
   position: absolute;
   flex-direction: column;
   z-index: -1;
-  /* right: 0; */
+  right: 41rem;
+  top: 12rem;
+}
+
+.nav__menu--item:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
 }
 
 .nav__menu--item a {
   color: white;
+}
+
+.item1 {
+  position: relative;
+  right: 5.8rem;
+  border-radius: 2rem 8rem 0px 2rem;
+  padding: 0.5rem 5rem 0.5rem 1rem;
+}
+
+.item2 {
+  position: relative;
+  right: -1.5rem;
+  border-radius: 2rem 8rem 0px 2rem;
+  padding: 0.5rem 5.5rem 0.5rem 1rem;
+}
+
+.item3 {
+  position: relative;
+  right: -8rem;
+  border-radius: 2rem 8rem 0px 2rem;
+  padding: 0.5rem 5rem 0.5rem 1rem;
+}
+
+.item4 {
+  position: relative;
+  right: -9.5rem;
+  border-radius: 2rem 8rem 0px 2rem;
+  padding: 0.5rem 5rem 0.5rem 1rem;
+}
+
+.item5 {
+  position: relative;
+  right: -12rem;
+  border-radius: 2rem 8rem 0px 2rem;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
 }
