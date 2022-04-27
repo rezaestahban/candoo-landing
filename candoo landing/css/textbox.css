@@ -1,0 +1,20 @@
+/* .text__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.text__box--address {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20rem;
+}
+
+.text__box--main {
+  display: flex;
+  justify-content: center;
+  /* margin-right: 20rem; */
+  align-items: center;
+  margin-bottom: 10rem;
+  /* width: 50%; */
+}

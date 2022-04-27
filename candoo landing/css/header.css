@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-top: 5rem;
+  margin-right: 20rem;
+  position: relative;
+
+  /* margin-right: 15rem; */
+}
+
+.nav__img img {
+  z-index: 10;
+  /* position: absolute;
+  right: 5rem; */
+}
+
+.nav__menu {
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-end;
+  position: absolute;
+  flex-direction: column;
+  z-index: -1;
+  /* right: 0; */
+}
+
+.nav__menu--item a {
+  color: white;
+}

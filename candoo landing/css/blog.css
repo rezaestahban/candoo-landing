@@ -1,0 +1,32 @@
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog__img {
+  margin-left: 1.4rem;
+}
+
+.blog__img img {
+  border-radius: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.blog__img img:hover {
+  cursor: pointer;
+}
+
+.blog__btn i {
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+  background-color: #e3ecee;
+  color: var(--dark-color);
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.blog__btn i:hover {
+  cursor: pointer;
+  background-color: #d8dddf;
+}
