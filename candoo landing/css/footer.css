@@ -1,8 +1,22 @@
-footer {
+.footer {
   display: flex;
   /* justify-content: center; */
   align-items: center;
   flex-direction: row;
   margin-bottom: 5rem;
+}
+.footer__img img {
   margin-left: 20rem;
+}
+
+.footer__btn {
+  padding: 0.7rem 1rem 0.7rem 3rem;
+  outline: none;
+  font-family: inherit;
+  border-radius: 1.5rem;
+  box-shadow: none;
+  background-color: var(--secondary-color);
+}
+.footer__menu--item a {
+  color: white;
 }

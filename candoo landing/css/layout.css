@@ -42,18 +42,11 @@ a {
   text-decoration: none;
 }
 
-.container {
-  margin-right: 2rem;
-  margin-left: 2rem;
-}
-
 .btn {
   outline: none;
   font-family: inherit;
   padding: 0.7rem 3rem 0.7rem 1rem;
   border-radius: 1.5rem;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
   box-shadow: none;
   background-color: var(--secondary-color);
 }
