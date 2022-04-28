@@ -3,7 +3,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer__img {
+  pointer-events: none;
 }
 .footer__img img {
   bottom: 10rem;
@@ -19,6 +25,9 @@
   box-shadow: none;
   background-color: var(--secondary-color);
 }
+.footer__menu {
+  position: absolute;
+}
 .footer__menu--item a {
   color: white;
 }
@@ -31,31 +40,46 @@
 
 .footer_item1 {
   position: relative;
-  left: -62rem;
-  bottom: -3rem;
+  left: -100px;
+  /* left: -62rem; */
+  /* bottom: -3rem; */
   border-radius: 0rem 2rem 2rem 8rem;
-  padding: 0.5rem 0.5rem 0.5rem 5rem;
-  z-index: -1;
+  /* padding: 0.5rem 0.5rem 0.5rem 5rem; */
+  padding: 0rem 1rem 0rem 3rem;
+  /* z-index: -1; */
 }
 
 .footer_item2 {
   position: relative;
-  left: -63rem;
-  bottom: -3rem;
+  width: fit-content;
+  left: -115px;
+  /* left: -63rem; */
+  /* bottom: -3rem; */
   border-radius: 0rem 2rem 2rem 8rem;
-  padding: 0.5rem 0.5rem 0.5rem 6rem;
-  z-index: -1;
+  /* padding: 0.5rem 0.5rem 0.5rem 6rem; */
+  padding: 0rem 1rem 0rem 3rem;
+  /* z-index: -1; */
 }
 
 .footer_item3 {
   position: relative;
-  left: -63rem;
-  bottom: -3rem;
+  left: -48px;
+  /* left: -63rem; */
+  /* bottom: -3rem; */
   border-radius: 0rem 2rem 2rem 8rem;
-  padding: 0.5rem 0.5rem 0.5rem 6rem;
-  z-index: -1;
+  /* width: fit-content; */
+  /* padding: 0.5rem 0.5rem 0.5rem 6rem; */
+  padding: 0rem 1rem 0rem 3rem;
+  /* z-index: -1; */
 }
 
 .footer__menu--item:hover {
   cursor: pointer;
+  background-color: var(--primary-color);
+}
+
+.footer__cr p {
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  /* width: 100%; */
 }

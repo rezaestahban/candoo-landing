@@ -1,12 +1,47 @@
 .main {
+  /* position: absolute; */
+  /* top: 29rem; */
+  width: fit-content;
+  top: 30%;
   position: absolute;
-  top: 29rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+
+  /* margin-top: 20%; */
 }
 
 .backicon {
   position: absolute;
-  left: 8rem;
-  bottom: -23rem;
+  /* left: 8rem; */
+  /* bottom: -23rem; */
   opacity: 0.5;
   z-index: -2;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+html,
+body {
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.wrapper {
+  width: 650px;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+.box__icon--down {
+  align-self: end;
+}
+.box__icon--up {
+  align-self: flex-start;
+}
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

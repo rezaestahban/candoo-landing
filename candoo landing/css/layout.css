@@ -50,7 +50,8 @@ a {
 .btn {
   outline: none;
   font-family: inherit;
-  padding: 0.7rem 3rem 0.7rem 1rem;
+  /* padding: 0.7rem 3rem 0.7rem 1rem; */
+  /* padding: 3rem 1rem; */
   /* border-radius: 1.5rem; */
   box-shadow: none;
   background-color: var(--secondary-color);

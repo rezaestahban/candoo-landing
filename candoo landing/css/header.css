@@ -2,15 +2,16 @@
   display: flex;
   /* justify-content: space-around; */
   align-items: center;
-  margin-top: 2rem;
-  margin-right: 20rem;
+  /* margin-top: 2rem; */
+  /* margin-right: 20rem; */
   /* position: relative; */
 
   /* margin-right: 15rem; */
 }
 
-.nav__img img {
+.nav__img {
   z-index: 2;
+  pointer-events: none;
 
   /* position: absolute;
   right: 5rem; */
@@ -20,7 +21,7 @@
   display: flex;
   /* justify-content: center; */
   align-items: flex-end;
-  position: absolute;
+  /* position: absolute; */
   flex-direction: column;
   z-index: -1;
   right: 46rem;
@@ -42,33 +43,38 @@
   position: relative;
   right: 3.8rem;
   border-radius: 2rem 10rem 0px 2rem;
-  padding: 0.7rem 5rem 0.7rem 1rem;
+  /* padding: 0.7rem 5rem 0.7rem 1rem; */
+  padding: 0rem 3rem 0rem 1rem;
 }
 
 .item2 {
   position: relative;
-  right: -5.5rem;
+  right: -3.5rem;
   border-radius: 2rem 8rem 0px 2rem;
-  padding: 0.7rem 5.5rem 0.7rem 1rem;
+  /* padding: 0.7rem 5.5rem 0.7rem 1rem; */
+  padding: 0rem 3rem 0rem 1rem;
 }
 
 .item3 {
   position: relative;
-  right: -13rem;
+  right: -6rem;
   border-radius: 2rem 8rem 0px 2rem;
-  padding: 0.7rem 5rem 0.7rem 1rem;
+  padding: 0rem 5rem 0rem 1rem;
+  /* padding: 0.7rem 5rem 0.7rem 1rem; */
 }
 
 .item4 {
   position: relative;
-  right: -14.5rem;
+  right: -8rem;
   border-radius: 2rem 8rem 0px 2rem;
-  padding: 0.7rem 5rem 0.7rem 1rem;
+  padding: 0rem 3rem 0rem 1rem;
+  /* padding: 0.7rem 5rem 0.7rem 1rem; */
 }
 
 .item5 {
   position: relative;
-  right: -18rem;
+  right: -10rem;
   border-radius: 2rem 8rem 0px 2rem;
-  padding: 0.5rem 3rem 0.5rem 1rem;
+  /* padding: 0.5rem 3rem 0.5rem 1rem; */
+  padding: 0rem 2rem 0rem 1rem;
 }

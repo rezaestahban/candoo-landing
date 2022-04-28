@@ -1,7 +1,7 @@
 .text__box--address {
   display: flex;
   justify-content: flex-start;
-  margin-right: 34rem;
+  /* margin-right: 34rem; */
 }
 
 .text__box--main {
@@ -11,8 +11,10 @@
 }
 
 .box {
-  width: 45%;
-  margin: 1rem 3rem;
+  width: 450px;
+  height: 150px;
+  overflow: hidden;
+  /* margin: 0rem 2rem; */
   background-color: #d8e6e9;
   padding: 1.5rem;
   border-radius: 1.2rem;
@@ -20,6 +22,7 @@
 
 .box p {
   color: var(--dark-color);
+  font-size: 1rem;
 }
 
 .address__title span {
