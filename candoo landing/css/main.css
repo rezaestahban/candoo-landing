@@ -1,4 +1,12 @@
 .main {
   position: absolute;
-  top: 38rem;
+  top: 29rem;
+}
+
+.backicon {
+  position: absolute;
+  left: 8rem;
+  bottom: -23rem;
+  opacity: 0.5;
+  z-index: -2;
 }

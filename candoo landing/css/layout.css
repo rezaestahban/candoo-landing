@@ -26,7 +26,12 @@ html {
 
 body {
   font-size: 1.5rem;
-  background: var(--back-color);
+  background: linear-gradient(
+    258.43deg,
+    rgba(198, 206, 208, 0.7) 13.71%,
+    rgba(212, 229, 235, 0.7) 46.64%,
+    rgba(169, 195, 205, 0) 88.55%
+  );
 }
 
 button {

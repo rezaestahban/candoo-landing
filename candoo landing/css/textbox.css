@@ -1,25 +1,18 @@
-/* .text__box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .text__box--address {
   display: flex;
   justify-content: flex-start;
-  margin-right: 33rem;
+  margin-right: 34rem;
 }
 
 .text__box--main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
 }
 
 .box {
-  width: 50%;
-  margin: 3rem;
+  width: 45%;
+  margin: 1rem 3rem;
   background-color: #d8e6e9;
   padding: 1.5rem;
   border-radius: 1.2rem;
@@ -40,7 +33,7 @@
 }
 
 .address__icon--aroow i {
-  color: rgb(95, 95, 95);
+  color: #d8e6e9;
 }
 
 .address__title a {

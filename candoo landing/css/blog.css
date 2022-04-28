@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 2rem;
+  margin-top: 2rem;
 }
 
 .blog__img {
@@ -24,6 +26,7 @@
   color: var(--dark-color);
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
+  z-index: 1000;
 }
 
 .blog__btn i:hover {

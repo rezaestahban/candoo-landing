@@ -2,7 +2,7 @@
   display: flex;
   /* justify-content: space-around; */
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-right: 20rem;
   /* position: relative; */
 
@@ -10,7 +10,8 @@
 }
 
 .nav__img img {
-  z-index: 10;
+  z-index: 2;
+
   /* position: absolute;
   right: 5rem; */
 }
@@ -22,8 +23,8 @@
   position: absolute;
   flex-direction: column;
   z-index: -1;
-  right: 41rem;
-  top: 12rem;
+  right: 46rem;
+  top: 7rem;
 }
 
 .nav__menu--item:hover {
@@ -33,44 +34,41 @@
 
 .nav__menu--item a {
   color: white;
+  font-size: 1.6rem;
+  font-weight: 300;
 }
 
 .item1 {
   position: relative;
-  right: 5.8rem;
-  border-radius: 2rem 8rem 0px 2rem;
-  padding: 0.5rem 5rem 0.5rem 1rem;
+  right: 3.8rem;
+  border-radius: 2rem 10rem 0px 2rem;
+  padding: 0.7rem 5rem 0.7rem 1rem;
 }
 
 .item2 {
   position: relative;
-  right: -1.5rem;
+  right: -5.5rem;
   border-radius: 2rem 8rem 0px 2rem;
-  padding: 0.5rem 5.5rem 0.5rem 1rem;
+  padding: 0.7rem 5.5rem 0.7rem 1rem;
 }
 
 .item3 {
   position: relative;
-  right: -8rem;
+  right: -13rem;
   border-radius: 2rem 8rem 0px 2rem;
-  padding: 0.5rem 5rem 0.5rem 1rem;
+  padding: 0.7rem 5rem 0.7rem 1rem;
 }
 
 .item4 {
   position: relative;
-  right: -9.5rem;
+  right: -14.5rem;
   border-radius: 2rem 8rem 0px 2rem;
-  padding: 0.5rem 5rem 0.5rem 1rem;
+  padding: 0.7rem 5rem 0.7rem 1rem;
 }
 
 .item5 {
   position: relative;
-  right: -12rem;
+  right: -18rem;
   border-radius: 2rem 8rem 0px 2rem;
   padding: 0.5rem 3rem 0.5rem 1rem;
-}
-
-.btn:hover {
-  background-color: var(--primary-color);
-  cursor: pointer;
 }
